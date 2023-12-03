@@ -4,19 +4,159 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/0c5757da89.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <!-- Your header content -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Your Logo" />
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="search-box"
+            placeholder="search brand, product"
+          />
+          <button class="search-btn">
+            <i
+              class="fa-solid fa-magnifying-glass fa-lg"
+              style="color: #ffffff"
+            ></i>
+          </button>
+        </div>
+        <div class="nav-items">
+          <a href="#"
+            ><i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-solid fa-cart-shopping fa-lg"
+              style="color: #ffffff"
+            ></i
+          ></a>
+        </div>
+      </nav>
+
+      <div class="hamburger">
+        <div class="bar">
+          <div class="logo">
+            <img src="images/logo.png" alt="Your Logo" />
+          </div>
+          <label class="menubtn" for="navBtn"><span></span></label>
+        </div>
+      </div>
+      <div class="hideMenu">
+        <input type="checkbox" class="navBtn" id="navBtn" />
+        <div class="sidebar">
+          <ul>
+            <li>
+              <a href="#">First Link</a>
+            </li>
+            <li>
+              <a href="#">Second Link</a>
+            </li>
+            <li>
+              <a href="#">Third Link</a>
+            </li>
+            <li>
+              <a href="#">Forth Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="links-container">
+        <li class="link-item"><a href="#" class="link">home</a></li>
+        <li class="link-item"><a href="#" class="link">women</a></li>
+        <li class="link-item"><a href="#" class="link">men</a></li>
+        <li class="link-item"><a href="#" class="link">kids</a></li>
+      </ul>
     </header>
 
     <main>
-      <!-- Your main content -->
+      <div class="dvBanner">
+        <img src="images/banner.png" />
+      </div>
     </main>
 
     <footer>
-      <!-- Your footer content -->
+      <div class="footer">
+        <div class="content">
+          <div class="column">
+            <div class="services">
+              <h4>SERVICES</h4>
+              <p><a href="#">App development</a></p>
+              <p><a href="#">Web development</a></p>
+              <p><a href="#">DevOps</a></p>
+              <p><a href="#">Web designing</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="links">
+              <h4>QUICK LINKS</h4>
+              <p><a href="#">Home</a></p>
+              <p><a href="#">About</a></p>
+              <p><a href="#">Blogs</a></p>
+              <p><a href="#">Contact</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="details">
+              <h4 class="address">ADDRESS</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate, qui!
+              </p>
+
+              <h4 class="mobile">MOBILE</h4>
+              <p><a href="#">+91-122251234</a></p>
+
+              <h4 class="mail">EMAIL</h4>
+              <p><a href="#">test@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="details">
+              <div class="footer-apps-image-content">
+                <div class="footer-title">
+                  <h4 class="appTitle">EXPERIENCE SUPERTAILS APP ON MOBILE</h4>
+                </div>
+                <div class="footer-apps">
+                  <div class="footer-apps-image">
+                    <a href="#">
+                      <img src="images/playstore.png" />
+                    </a>
+                  </div>
+                  <div class="footer-apps-image">
+                    <a href="#">
+                      <img src="images/applestore.png" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <section id="copy-right">
+          <div class="copy-right-sec">
+            lorem ispum lorem ispum 2022 Powerd By
+          </div>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
