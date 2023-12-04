@@ -1,189 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://kit.fontawesome.com/0c5757da89.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/0c5757da89.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Your Logo" />
+      </div>
+      <div class="search">
+        <input type="text" class="search-box" placeholder="search brand, product" />
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff"></i>
+        </button>
+      </div>
+      <div class="nav-items">
+        <a href="#"><i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #ffffff"></i></a>
+      </div>
+    </nav>
+
+    <div class="hamburger">
+      <div class="bar">
         <div class="logo">
           <img src="images/logo.png" alt="Your Logo" />
         </div>
-        <div class="search">
-          <input
-            type="text"
-            class="search-box"
-            placeholder="search brand, product"
-          />
-          <button class="search-btn">
-            <i
-              class="fa-solid fa-magnifying-glass fa-lg"
-              style="color: #ffffff"
-            ></i>
-          </button>
-        </div>
-        <div class="nav-items">
-          <a href="#"
-            ><i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i
-          ></a>
-          <a href="#"
-            ><i
-              class="fa-solid fa-cart-shopping fa-lg"
-              style="color: #ffffff"
-            ></i
-          ></a>
-        </div>
-      </nav>
+        <label class="menubtn" for="navBtn"><span></span></label>
+      </div>
+    </div>
+    <div class="hideMenu">
+      <input type="checkbox" class="navBtn" id="navBtn" />
+      <div class="sidebar">
+        <ul>
+          <li>
+            <a href="#">Offer Zone</a>
+          </li>
+          <li>
+            <a href="#">Dog Food</a>
+          </li>
+          <li>
+            <a href="#">Cat Food</a>
+          </li>
+          <li>
+            <a href="#">Shop By Breed</a>
+          </li>
+          <li>
+            <a href="#">Pharmacy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="links-container">
+      <li class="link-item"><a href="#" class="link">Offer Zone</a></li>
+      <li class="link-item"><a href="#" class="link">Dog Food</a></li>
+      <li class="link-item"><a href="#" class="link">Cat Food</a></li>
+      <li class="link-item"><a href="#" class="link">Shop By Breed</a></li>
+      <li class="link-item"><a href="#" class="link">Pharmacy</a></li>
+    </ul>
+  </header>
 
-      <div class="hamburger">
-        <div class="bar">
-          <div class="logo">
-            <img src="images/logo.png" alt="Your Logo" />
+  <main>
+    <div class="dvBanner">
+      <img src="images/banner.png" />
+    </div>
+    <div class="bannerAdd">
+      <img src="images/bannerAdd.png" />
+    </div>
+    <div class="sliderBody">
+      <div class="sliderImg"><img src="images/slider1.png" /></div>
+      <div class="sliderImg"><img src="images/slider4.png" /></div>
+    </div>
+
+    <div class="popularCategory">
+      <div class="categoryHeading">
+        <h3>Popular Category</h3>
+      </div>
+
+      <div class="popularCategoryRow">
+        <div class="categoryImg"><img src="images/cate1.png" /></div>
+        <div class="categoryImg"><img src="images/cate2.png" /></div>
+        <div class="categoryImg"><img src="images/cate3.png" /></div>
+        <div class="categoryImg"><img src="images/cate4.png" /></div>
+      </div>
+      <div class="popularCategoryRow">
+        <div class="categoryImg"><img src="images/cate5.png" /></div>
+        <div class="categoryImg"><img src="images/cate6.png" /></div>
+        <div class="categoryImg"><img src="images/cate7.png" /></div>
+        <div class="categoryImg"><img src="images/cate8.png" /></div>
+      </div>
+    </div>
+
+    <div class="dvhealthCare">
+      <div class="healthcareBanner">
+        <h3>Pet Care & Health</h3>
+        <img src="images/blogBanner.jpg" />
+      </div>
+      <div class="blogPost">
+        <h3>Latest Post</h3>
+        <div class="blogDetails">
+          <img src="images/blog1.jpeg" />
+          <div class="blogHeading">
+            Unlocking Dog Dreams: Canine Nightly Fantasies
           </div>
-          <label class="menubtn" for="navBtn"><span></span></label>
         </div>
-      </div>
-      <div class="hideMenu">
-        <input type="checkbox" class="navBtn" id="navBtn" />
-        <div class="sidebar">
-          <ul>
-            <li>
-              <a href="#">First Link</a>
-            </li>
-            <li>
-              <a href="#">Second Link</a>
-            </li>
-            <li>
-              <a href="#">Third Link</a>
-            </li>
-            <li>
-              <a href="#">Forth Link</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <ul class="links-container">
-        <li class="link-item"><a href="#" class="link">home</a></li>
-        <li class="link-item"><a href="#" class="link">women</a></li>
-        <li class="link-item"><a href="#" class="link">men</a></li>
-        <li class="link-item"><a href="#" class="link">kids</a></li>
-      </ul>
-    </header>
-
-    <main>
-      <div class="dvBanner">
-        <img src="images/banner.png" />
-      </div>
-      <div class="bannerAdd">
-        <img src="images/bannerAdd.png" />
-      </div>
-      <div class="sliderBody">
-        <div class="sliderImg"><img src="images/slider1.png" /></div>
-        <div class="sliderImg"><img src="images/slider4.png" /></div>
-      </div>
-
-      <div class="popularCategory">
-        <div class="categoryHeading">
-          <h3>Popular Category</h3>
-        </div>
-
-        <div class="popularCategoryRow">
-          <div class="categoryImg"><img src="images/cate1.png" /></div>
-          <div class="categoryImg"><img src="images/cate2.png" /></div>
-          <div class="categoryImg"><img src="images/cate3.png" /></div>
-          <div class="categoryImg"><img src="images/cate4.png" /></div>
-        </div>
-        <div class="popularCategoryRow">
-          <div class="categoryImg"><img src="images/cate5.png" /></div>
-          <div class="categoryImg"><img src="images/cate6.png" /></div>
-          <div class="categoryImg"><img src="images/cate7.png" /></div>
-          <div class="categoryImg"><img src="images/cate8.png" /></div>
-        </div>
-      </div>
-
-      <div class="dvhealthCare"></div>
-    </main>
-    <footer>
-      <div class="footer">
-        <div class="content">
-          <div class="column">
-            <div class="services">
-              <h4>SERVICES</h4>
-              <p><a href="#">App development</a></p>
-              <p><a href="#">Web development</a></p>
-              <p><a href="#">DevOps</a></p>
-              <p><a href="#">Web designing</a></p>
-            </div>
+        <div class="blogDetails">
+          <img src="images/blog2.jpeg" />
+          <div class="blogHeading">
+            Unlocking Dog Dreams: Canine Nightly Fantasies
           </div>
-          <div class="column">
-            <div class="links">
-              <h4>QUICK LINKS</h4>
-              <p><a href="#">Home</a></p>
-              <p><a href="#">About</a></p>
-              <p><a href="#">Blogs</a></p>
-              <p><a href="#">Contact</a></p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="details">
-              <h4 class="address">ADDRESS</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, qui!
-              </p>
+        </div>
+      </div>
+    </div>
 
-              <h4 class="mobile">MOBILE</h4>
-              <p><a href="#">+91-122251234</a></p>
+    <div class="testmonial">
+      <div class="dvTestimonial">
+        <img src="images/testimonial1.png" alt="" />
 
-              <h4 class="mail">EMAIL</h4>
-              <p><a href="#">test@gmail.com</a></p>
-            </div>
+        <div class="testmonialContent">
+          I love Supertails. For me, it's a one stop website for everything
+          that my husky needs. From puppy food to toys to dog essentials,
+          Supertails has got me covered. Best part of Supertails is that we
+          g...
+        </div>
+        <div class="testimonialStar">
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+        </div>
+      </div>
+      <div class="dvTestimonial">
+        <img src="images/testimonial2.png" alt="" />
+
+        <div class="testmonialContent">
+          Hi, I purchased a tick on treatment for my pet a month back and
+          today I received a dog’s toy as a gift which was not expected from
+          you. Thank you so much for caring about your customers. You just
+          m...
+        </div>
+        <div class="testimonialStar">
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+        </div>
+      </div>
+      <div class="dvTestimonial">
+        <img src="images/testimonial3.png" alt="" />
+
+        <div class="testmonialContent">
+          Supertails have always been a happiness to my furry. Supertails
+          never fail to surprise my furry with the amazing goodies. I would
+          always like to be a part of supertails. Best wishes to supertails
+        </div>
+        <div class="testimonialStar">
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+          <i class="fa-solid fa-star fa-lg" style="color: #fbf660"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="dvContent">
+      <p class="dvContentHead">Supertails: Unleash Joy with Our Online Pet Store</p>
+      <p>
+        Welcome to Supertails, your ultimate online pet store in India! At
+        Supertails, we're more than just a pet shop online - we're your
+        partners in pet parenting. With a passion for enhancing the lives of
+        pets and pet parents with our pet products, we offer a wide array of
+        pet essentials that cater to your pets' every need.
+      </p>
+      <p>
+        As the best online pet store in India, we bring you a curated
+        selection of pet products that are not only of the highest quality but
+        also designed to make your pets' lives happier and healthier.
+      </p>
+      <p>
+        Gone are the days of searching for a "pet store near me" or "pet shop
+        near me".With Supertails, pet online shopping is a breeze. As your
+        trusted online pet shop in India, we understand the unique bond you
+        share with your pets. That's why we ensure that every pet product we
+        offer is chosen with care and consideration.
+      </p>
+      <p>
+        We take pride in being the best online cat and dog store as well. Your
+        pets deserve the best, and we are here to provide it. With a variety
+        of cat and dog shop products, you can keep your pets wagging their
+        tails with joy.</p>
+      </p>
+    </div>
+    <div class="dvFeature">
+      <div class="featureBody">
+        <img src="images/featureico (1).png" alt="">
+        <div class="featureContent">
+          <div class="featureHead">1,50,000+
+
           </div>
-          <div class="column">
-            <div class="details">
-              <div class="footer-apps-image-content">
-                <div class="footer-title">
-                  <h4 class="appTitle">EXPERIENCE SUPERTAILS APP ON MOBILE</h4>
+          <div class="featurepara">Happy pet parents</div>
+        </div>
+      </div>
+      <div class="featureBody">
+        <img src="images/featureico (2).png" alt="">
+        <div class="featureContent">
+          <div class="featureHead">24hr Delivery
+          </div>
+          <div class="featurepara">In 24 cities</div>
+        </div>
+      </div>
+      <div class="featureBody">
+        <img src="images/featureico (3).png" alt="">
+        <div class="featureContent">
+          <div class="featureHead">Complimentary vet
+
+          </div>
+          <div class="featurepara">For every new member</div>
+        </div>
+      </div>
+      <div class="featureBody">
+        <img src="images/featureico (1).png" alt="">
+        <div class="featureContent">
+          <div class="featureHead">Pet Pharmacy
+
+          </div>
+          <div class="featurepara">Exclusive</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="content">
+        <div class="column">
+          <div class="services">
+            <h4>ONLINE SHOPING</h4>
+            <p><a href="#">Dogs</a></p>
+            <p><a href="#">Cats</a></p>
+            <p><a href="#">Small Pets </a></p>
+            <p><a href="#">Consult a Vet</a></p>
+            <p><a href="#"></a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="links">
+            <h4>QUICK LINKS</h4>
+            <p><a href="#">My Account
+              </a></p>
+            <p><a href="#">Track Your Order
+              </a></p>
+            <p><a href="#">Refund policy
+                Return policy
+              </a></p>
+            <p><a href="#">Privacy Policy
+              </a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="details">
+            <h4>EXPLORE</h4>
+            <p><a href="#">Our story
+              </a></p>
+            <p><a href="#">FAQs</a></p>
+            <p><a href="#">Blogs</a></p>
+            <p><a href="#">Contact Us</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="details">
+            <div class="footer-apps-image-content">
+              <div class="footer-title">
+                <h4 class="appTitle">EXPERIENCE SUPERTAILS APP ON MOBILE</h4>
+              </div>
+              <div class="footer-apps">
+                <div class="footer-apps-image">
+                  <a href="#">
+                    <img src="images/playstore.png" />
+                  </a>
                 </div>
-                <div class="footer-apps">
-                  <div class="footer-apps-image">
-                    <a href="#">
-                      <img src="images/playstore.png" />
-                    </a>
-                  </div>
-                  <div class="footer-apps-image">
-                    <a href="#">
-                      <img src="images/applestore.png" />
-                    </a>
-                  </div>
+                <div class="footer-apps-image">
+                  <a href="#">
+                    <img src="images/applestore.png" />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="footer-col">
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-        <section id="copy-right">
-          <div class="copy-right-sec">
-            lorem ispum lorem ispum 2022 Powerd By
-          </div>
-        </section>
       </div>
-    </footer>
-  </body>
+
+      <div class="footer-col">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <section id="copy-right">
+        <div class="copy-right-sec">
+          Copyright 2022, Pet Essentials Inc. | Terms and Conditions
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+
 </html>
