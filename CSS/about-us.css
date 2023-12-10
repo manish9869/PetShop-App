@@ -3,6 +3,7 @@
 .about-us-title h2 {
   text-align: center;
   padding: 10px;
+  font-size: 40px;
 }
 
 .dvBanner, .dvBanner2 {
@@ -20,7 +21,6 @@
       width: auto;
       height: auto;
       background-color: #EAF184;
-      border: 2px solid #333;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -133,14 +133,14 @@
 /* For devices 768px to 1023px width */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
  
+  }
 
-}
 
 /* Mobile View */
 /* For devices up to 767px width */
 @media only screen and (max-width: 767px) {
- 
-}
+
+  }
 
 /* Small Mobile View */
 /* For devices up to 479px width (very small screens) */
