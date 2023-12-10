@@ -1,0 +1,144 @@
+.productItems {
+  display: flex;
+  background-color: white;
+}
+
+.productDropdown {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+.filterDiv {
+  display: flex;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.filterDiv img {
+  height: 25px;
+  width: 25px;
+}
+
+.filterDiv h4 {
+  font-weight: bolder;
+}
+.productDropdown img {
+  height: 25px;
+  width: 25px;
+}
+
+.filterDiv {
+  margin-top: 33px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.productFilter {
+  margin-right: 70px;
+  padding-left: 23px;
+  background-color: white;
+}
+
+.productDropdown h4 {
+  margin-left: 28px;
+  margin-bottom: 5px;
+}
+
+.productDropdown:nth-child(7) {
+  border: none;
+}
+.dogFood {
+  width: 106%;
+}
+
+.dogItem {
+  border: 1px solid rgba(0, 0, 0, 0.444);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.dogItem img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  height: 190px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dogFood {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding-top: 50px;
+  /* padding-left: 300px; */
+  padding-right: 50px;
+  background-color: white;
+}
+
+.productRed {
+  color: rgb(210, 15, 15);
+  display: inline;
+}
+
+.dogItem div {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.kilos {
+  display: flex;
+  justify-content: center;
+}
+
+.kilos li {
+  display: inline;
+  border: 1px solid rgba(0, 0, 0, 0.444);
+  margin: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.dogItem button {
+  background-color: #ef6c00;
+  border: #ef6c00;
+  color: white;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.product_1 {
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+.productContent{
+    border: 1px solid black;
+    margin: 45px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#productMain{
+    background-color: white;
+}
+
