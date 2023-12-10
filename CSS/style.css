@@ -23,6 +23,12 @@ body {
   line-height: 70px;
 }
 
+.nav-items a {
+  color: white;
+}
+.fa-star {
+  color: #fbf660;
+}
 .logo img {
   display: flex;
 }
