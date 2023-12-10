@@ -23,6 +23,10 @@ body {
   line-height: 70px;
 }
 
+.fa {
+  color: white;
+}
+
 .logo img {
   display: flex;
 }
