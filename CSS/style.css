@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@400;700;900&display=swap");
+
 /* Global Reset */
 * {
   margin: 0;
@@ -7,7 +9,7 @@
 
 /* Default Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: roboto, sans-serif;
   line-height: 1.6;
   background-color: #f8f8f8;
   color: #333;
@@ -21,6 +23,9 @@ body {
   justify-content: space-between;
   padding: 10px;
   line-height: 70px;
+}
+.search-btn {
+  color: white;
 }
 
 .nav-items a {
@@ -355,10 +360,10 @@ body {
   padding-top: 0;
 }
 
-.categoryHeading H3 {
+.categoryHeading h1 {
   text-align: center;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 900;
 }
 
 .dvhealthCare {
@@ -376,7 +381,7 @@ body {
   width: 100%;
 }
 
-.healthcareBanner H3 {
+.healthcareBanner h1 {
   margin-bottom: 10px;
 }
 
@@ -756,7 +761,7 @@ body {
     display: flow;
   }
 
-  .blogPost H3 {
+  .blogPost h1 {
     text-align: center;
   }
 
