@@ -485,6 +485,13 @@ body {
   padding: 15px 15px 15px 5px;
 }
 
+.blogHeading a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
 /*#endregion Index Page Styles  */
 
 /*#region Product Page Style */
