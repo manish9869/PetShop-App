@@ -3,20 +3,528 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Product Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/0c5757da89.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/product.css" />
   </head>
+
   <body>
     <header>
-      <!-- Your header content -->
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="search-box"
+            placeholder="search brand, product"
+          />
+          <button class="search-btn">
+            <i class="fa fa-search fa-lg"></i>
+          </button>
+        </div>
+        <div class="nav-items">
+          <a href="#"><i class="fa fa-user fa-lg"></i></a>
+          <a href="#"><i class="fa fa-shopping-cart fa-lg"></i></a>
+        </div>
+      </nav>
+
+      <div class="hamburger">
+        <div class="bar">
+          <div class="logo">
+            <img src="images/logo.png" alt=" Logo" />
+          </div>
+          <label class="menubtn" for="navBtn"><span></span></label>
+        </div>
+      </div>
+      <div class="hideMenu">
+        <input type="checkbox" class="navBtn" id="navBtn" />
+        <div class="sidebar">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="product.html">Products</a>
+            </li>
+            <li>
+              <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+              <a href="blogs.html">Blogs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="links-container">
+        <li class="link-item"><a href="index.html" class="link">Home</a></li>
+        <li class="link-item">
+          <a href="product.html" class="link">Products</a>
+        </li>
+        <li class="link-item">
+          <a href="about-us.html" class="link">About Us</a>
+        </li>
+        <li class="link-item"><a href="blogs.html" class="link">Blogs</a></li>
+      </ul>
     </header>
+    <main id="productMain">
+      <div class="productItems">
+        <div class="productFilter">
+          <div class="filterDiv">
+            <img src="images/product_filter.png" alt="Fitler" />
+            <h4>FILTERS</h4>
+          </div>
+          <div class="productDropdown">
+            <h4>Brand</h4>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/product_dropdown.png" alt="Fitler" />
+          </div>
+          <div class="productDropdown">
+            <h4>Life Stage</h4>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/product_dropdown.png" alt="Fitler" />
+          </div>
+          <div class="productDropdown">
+            <h4>Price</h4>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/product_dropdown.png" alt="Fitler" />
+          </div>
+          <div class="productDropdown">
+            <h4>Breed Size</h4>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/product_dropdown.png" alt="Fitler" />
+          </div>
+          <div class="productDropdown">
+            <h4>Product Type</h4>
+            &nbsp; &nbsp;
+            <img src="images/product_dropdown.png" alt="Fitler" />
+          </div>
+          <div class="productDropdown" class="lastfilter">
+            <h4>Pet Type</h4>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/product_dropdown.png" alt="Fitler" />
+          </div>
+        </div>
 
-    <main>
-      <!-- Your main content -->
+        <!-- Products -->
+        <div class="productAll">
+          <ul class="dogFood">
+            <li class="dogItem">
+              <img
+                src="images/Image.png"
+                alt="Pedigree PRO Nutrition for Large Breed Puppy Dry Food"
+              />
+              <h4 class="product_1">
+                Pedigree PRO Nutrition for <br />Large Breed Puppy Dry Food
+              </h4>
+              <div>
+                <h4 class="productRed">$129</h4>
+                <h5 class="productRed">($13/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>3kg</li>
+                <li>13kg</li>
+                <li>5kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-0.png"
+                alt="Pedigree Chicken and Vegetables Adult Dry Dog Food"
+              />
+              <h4 class="product_1">
+                Pedigree Chicken and <br />
+                Vegetables Adult Dry Dog Food
+              </h4>
+              <div>
+                <h4 class="productRed">$150</h4>
+                <h5 class="productRed">($15/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>2.8kg</li>
+                <li>15kg</li>
+                <li>5kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-1.png"
+                alt="Royal Canin Maxi Puppy Dog Dry Food "
+              />
+              <h4 class="product_1">
+                Royal Canin Maxi Puppy Dog Dry <br />Food
+              </h4>
+              <div>
+                <h4 class="productRed">$150</h4>
+                <h5 class="productRed">($15/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>2.8kg</li>
+                <li>15kg</li>
+                <li>5kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-2.png"
+                alt="Canine Creek Club Ultra Premium Dog Dry Food"
+              />
+              <h4 class="product_1">
+                Canine Creek Club Ultra <br />
+                Premium Dog Dry Food
+              </h4>
+              <div>
+                <h4 class="productRed">$90</h4>
+                <h5 class="productRed">($21/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>10kg + 2kg</li>
+                <li>20kg</li>
+                <li>5kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-3.png"
+                alt="Drools Chicken and Egg Puppy Dog Dry Food"
+              />
+              <h4 class="product_1">
+                Drools Chicken and Egg Puppy
+                <br />
+                Dog Dry Food
+              </h4>
+              <div>
+                <h4 class="productRed">$110</h4>
+                <h5 class="productRed">($14/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>20kg</li>
+                <li>1.5kg</li>
+                <li>15+3kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-4.png"
+                alt="Drools Focus Super Premium Adult Dry Dog Food"
+              />
+              <h4 class="product_1">
+                Drools Focus Super Premium <br />
+                Adult Dry Dog Food
+              </h4>
+              <div>
+                <h4 class="productRed">$200</h4>
+                <h5 class="productRed">($33/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>20kg</li>
+                <li>15kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-5.png"
+                alt="Farmina N&D Pumpkin Lamb & Blueberry Grain Free Adult Medium Maxi Dog Dry Food"
+              />
+              <h4 class="product_1">
+                Farmina N&D Pumpkin Lamb &
+                <br />
+                Blueberry Grain Free Adult Dry Food
+              </h4>
+              <div>
+                <h4 class="productRed">$148</h4>
+                <h5 class="productRed">($19/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>2 X 2.5kg</li>
+                <li>12kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-6.png"
+                alt="Chappi Chicken & Rice Adult Dry Dog Foodg"
+              />
+              <h4 class="product_1">
+                Chappi Chicken & Rice Adult Dry
+                <br />
+                Dog Food
+              </h4>
+              <div>
+                <h4 class="productRed">$130</h4>
+                <h5 class="productRed">($14/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>20kg</li>
+                <li>17kg</li>
+                <li>2.8kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-7.png"
+                alt="Himalaya Meat & Rice healty Pet Food"
+              />
+              <h4 class="product_1">
+                Himalaya Meat & Rice healty <br />
+                Pet Food
+              </h4>
+              <div>
+                <h4 class="productRed">$90</h4>
+                <h5 class="productRed">($12/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>15kg</li>
+                <li>5kg</li>
+                <li>10+2kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-8.png"
+                alt="Acana Adult Large Breed Dog Dry Food"
+              />
+              <h4 class="product_1">
+                Acana Adult Large Breed Dog Dry <br />
+                Food
+              </h4>
+              <div>
+                <h4 class="productRed">$175</h4>
+                <h5 class="productRed">($18/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>17kg</li>
+                <li>11.4kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-9.png"
+                alt="Royal Canin Labrador Adult 5+ Dog Dry Food"
+              />
+              <h4 class="product_1">
+                Royal Canin Labrador Adult 5+ <br />
+                Dog Dry Food
+              </h4>
+              <div>
+                <h4 class="productRed">$166</h4>
+                <h5 class="productRed">($18.5/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>3kg</li>
+                <li>2 X 3kg</li>
+                <li>3 X 3kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+
+            <li class="dogItem">
+              <img
+                src="images/Image-10.png"
+                alt="Drool Single Grain Formula Pet Dry Food"
+              />
+              <h4 class="product_1">
+                Drool Single Grain Formula Pet <br />
+                Dry Food
+              </h4>
+              <div>
+                <h4 class="productRed">$140</h4>
+                <h5 class="productRed">($15.5/100g)</h5>
+              </div>
+              <ul class="kilos">
+                <li>20kg</li>
+                <li>15kg</li>
+                <li>10kg</li>
+              </ul>
+              <button name="add" type="submit">ADD TO CART</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="productContent">
+        <h4>
+          Shop Best Dry Dog Food For Small, Medium, Large Breed Dogs and Puppies
+        </h4>
+        <br />
+        <p>
+          Dogs come in all sizes - small, medium and large - and in various
+          breeds like Labrador Retriever, German shepherd, Golden Retrievers,
+          Beagle, Boxer, Pug, English cocker spaniel, Doberman and many more. As
+          a dog grows from a fragile puppy to an adorable adult its nutritional
+          needs also change; as a dog parent, it is your responsibility to look
+          after the diet of your dog and ensure that your canine friend remains
+          healthy and fit. Add dog dry food to your pet's diet to make sure your
+          dog's nutritional nourishments are taken care of. Some of the benefits
+          of feeding the best dog dry food include - healthier skin and coats,
+          stronger muscles, healthy bones, and teeth, better immunity and better
+          digestive health.
+        </p>
+        <br />
+        <h4>Why is Supertails the Favourite Online Dry Dog Food Shop?</h4>
+        <br />
+        <p>
+          Packed with the goodness of protein, fibre and essential vitamins &
+          minerals dog dry food is the perfect and healthiest food item for your
+          dog or puppy. At Supertails we provide the most wholesome and
+          nutrition-rich dog dry food aimed at keeping your furry companion
+          strong and healthy. Shop for the best dog dry food from the most
+          recommended brands in the pet food industry: Royal Canin, Farmina N&D,
+          Pedigree, Drools, Smart Heart, Fresh For Paws, and many more, there
+          are 41 pet food brands to choose from. If you ever have any concerns
+          regarding your doggy's eating habits, consult our animal experts to
+          get personalised diet advice. Our pet-centric services focused on the
+          health of your canine friend make us the favourite among pet parents
+          for all their dog food requirements.
+        </p>
+        <br />
+        <h4>The Benefits of Buying the Best Dry Dog Food From Supertails</h4>
+        <br />
+        <p>
+          Our SuperDeals, offers and discounts across our range of products make
+          sure that the health of your pet is not compromised by the size of
+          your wallet. What's better than exploring the healthiest best dog dry
+          food products from the largest assemblage of dog items available
+          online? Well, our one-day delivery without a doubt. It does not matter
+          what type of pet you have - Dog, Cat, Puppy, or Kitten - our online
+          pet store has all their needs covered. If you find that you need to
+          return one of our items then our easy return policy and top-notch
+          customer support will help you tackle this hassle-free. Supertails
+          also gives you a platform to easily get in touch online with expert
+          vets and trainers to discuss any pet-related issues.
+        </p>
+      </div>
+      <div class="dvFeature">
+        <div class="featureBody">
+          <img src="images/featureico (1).png" alt="" />
+          <div class="featureContent">
+            <div class="featureHead">1,50,000+</div>
+            <div class="featurepara">Happy pet parents</div>
+          </div>
+        </div>
+        <div class="featureBody">
+          <img src="images/featureico (2).png" alt="" />
+          <div class="featureContent">
+            <div class="featureHead">24hr Delivery</div>
+            <div class="featurepara">In 24 cities</div>
+          </div>
+        </div>
+        <div class="featureBody">
+          <img src="images/featureico (3).png" alt="" />
+          <div class="featureContent">
+            <div class="featureHead">Complimentary vet</div>
+            <div class="featurepara">For every new member</div>
+          </div>
+        </div>
+        <div class="featureBody">
+          <img src="images/featureico (1).png" alt="" />
+          <div class="featureContent">
+            <div class="featureHead">Pet Pharmacy</div>
+            <div class="featurepara">Exclusive</div>
+          </div>
+        </div>
+      </div>
     </main>
-
     <footer>
-      <!-- Your footer content -->
+      <div class="footer">
+        <div class="content">
+          <div class="column">
+            <div class="services">
+              <h4>ONLINE SHOPING</h4>
+              <p><a href="#">Dogs</a></p>
+              <p><a href="#">Cats</a></p>
+              <p><a href="#">Small Pets </a></p>
+              <p><a href="#">Consult a Vet</a></p>
+              <p><a href="#"></a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="links">
+              <h4>QUICK LINKS</h4>
+              <p><a href="#">My Account </a></p>
+              <p><a href="#">Track Your Order </a></p>
+              <p><a href="#">Refund policy Return policy </a></p>
+              <p><a href="#">Privacy Policy </a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="details">
+              <h4>EXPLORE</h4>
+              <p><a href="#">Our story </a></p>
+              <p><a href="#">FAQs</a></p>
+              <p><a href="#">Blogs</a></p>
+              <p><a href="#">Contact Us</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="details">
+              <div class="footer-apps-image-content">
+                <div class="footer-title">
+                  <h4 class="appTitle">EXPERIENCE SUPERTAILS APP ON MOBILE</h4>
+                </div>
+                <div class="footer-apps">
+                  <div class="footer-apps-image">
+                    <a href="#">
+                      <img src="images/playstore.png" />
+                    </a>
+                  </div>
+                  <div class="footer-apps-image">
+                    <a href="#">
+                      <img src="images/applestore.png" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="social-links">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <section id="copy-right">
+          <div class="copy-right-sec">
+            Copyright 2022, Pet Essentials Inc. | Terms and Conditions
+          </div>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
