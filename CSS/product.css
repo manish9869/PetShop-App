@@ -31,7 +31,7 @@
 }
 
 .filterDiv {
-  /* margin-top: 33px; */
+  margin-top: 33px;
   width: 100%;
   border-bottom: 1px solid black;
 }
@@ -78,7 +78,7 @@ ul {
   grid-template-columns: auto auto auto;
   gap: 50px;
   align-content: center;
-  /* padding-top: 50px; */
+  padding-top: 50px;
   /* padding-left: 300px; */
   padding-right: 2%;
   background-color: white;
@@ -111,12 +111,6 @@ ul {
   padding-right: 5px;
   border-radius: 5px;
 }
-h1 {
-  text-align: center;
-  padding: 10px;
-  font-size: 40px;
-  font-weight: 900;
-}
 
 .dogItem button {
   background-color: #ef6c00;
@@ -148,7 +142,7 @@ h1 {
 
 #productMain {
   background-color: white;
-  width: 100%;
+  width:100%;
   overflow: auto;
 }
 
@@ -208,22 +202,24 @@ h1 {
 /* Small Mobile View */
 /* For devices up to 479px width (very small screens) */
 @media only screen and (max-width: 479px) {
-  .productDropdown {
-    display: none;
-  }
-
-  .dogFood {
-    display: grid;
-    width: fit-content;
-    gap: 17px;
-    grid-template-columns: auto;
-    justify-content: space-evenly;
-    margin-left: auto;
-    padding: 65px;
-  }
-
-  .productItems {
-    display: block;
-    background-color: white;
+  @media only screen and (max-width: 767px) {
+    .productDropdown {
+      display: none;
+    }
+  
+    .dogFood {
+      display: grid;
+      width: fit-content;
+      gap: 17px;
+      grid-template-columns: auto;
+      justify-content: space-evenly;
+      margin-left: auto;
+      padding: 65px;
+    }
+  
+    .productItems {
+      display: block;
+      background-color: white;
+    }
   }
 }
