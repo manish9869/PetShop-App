@@ -77,10 +77,12 @@ ul {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
+  align-content: center;
   padding-top: 50px;
   /* padding-left: 300px; */
-  padding-right: 50px;
+  padding-right: 2%;
   background-color: white;
+  justify-content: space-between;
 }
 
 .productRed {
@@ -130,15 +132,94 @@ ul {
   padding-top: 7px;
 }
 
-.productContent{
-    border: 1px solid black;
-    margin: 45px;
+.productContent {
+  border: 1px solid black;
+  margin: 45px;
+  padding: 35px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#productMain {
+  background-color: white;
+  width:100%;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Desktop-specific styles */
+  /* .productItem{
+    width: auto;
+  } */
+}
+
+/* Tablet View */
+/* For devices 768px to 1023px width */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .productDropdown {
+    display: none;
+  }
+
+  .dogFood {
+    display: grid;
+    width: fit-content;
+    gap: 17px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-left: auto;
     padding: 35px;
+  }
+
+  .productItems {
+    display: block;
     background-color: white;
-    border-radius: 10px;
+  }
 }
 
-#productMain{
+/* Mobile View */
+/* For devices up to 767px width */
+@media only screen and (max-width: 767px) {
+  .productDropdown {
+    display: none;
+  }
+
+  .dogFood {
+    display: grid;
+    width: fit-content;
+    gap: 17px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: 35px;
+  }
+
+  .productItems {
+    display: block;
     background-color: white;
+  }
 }
 
+/* Small Mobile View */
+/* For devices up to 479px width (very small screens) */
+@media only screen and (max-width: 479px) {
+  @media only screen and (max-width: 767px) {
+    .productDropdown {
+      display: none;
+    }
+  
+    .dogFood {
+      display: grid;
+      width: fit-content;
+      gap: 17px;
+      grid-template-columns: auto;
+      justify-content: space-evenly;
+      margin-left: auto;
+      padding: 65px;
+    }
+  
+    .productItems {
+      display: block;
+      background-color: white;
+    }
+  }
+}
