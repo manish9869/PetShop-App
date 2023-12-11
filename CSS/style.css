@@ -487,6 +487,465 @@ body {
 
 /*#endregion Index Page Styles  */
 
+/*#region Product Page Style */
+.productItems {
+  display: flex;
+  background-color: white;
+}
+
+.productDropdown {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+.filterDiv {
+  display: flex;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.filterDiv img {
+  height: 25px;
+  width: 25px;
+}
+
+.filterDiv h4 {
+  font-weight: bolder;
+}
+.productDropdown img {
+  height: 25px;
+  width: 25px;
+}
+
+.filterDiv {
+  /* margin-top: 33px; */
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.productFilter {
+  margin-right: 70px;
+  padding-left: 23px;
+  background-color: white;
+}
+
+.productDropdown h4 {
+  margin-left: 28px;
+  margin-bottom: 5px;
+}
+
+.productDropdown:nth-child(7) {
+  border: none;
+}
+.dogFood {
+  width: 106%;
+}
+
+.dogItem {
+  border: 1px solid rgba(0, 0, 0, 0.444);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.dogItem img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  height: 190px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dogFood {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  align-content: center;
+  padding-right: 2%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.productRed {
+  color: rgb(210, 15, 15);
+  display: inline;
+}
+
+.dogItem div {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.kilos {
+  display: flex;
+  justify-content: center;
+}
+
+.kilos li {
+  display: inline;
+  border: 1px solid rgba(0, 0, 0, 0.444);
+  margin: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.dogItem button {
+  background-color: #ef6c00;
+  border: #ef6c00;
+  color: white;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.product_1 {
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+.productContent {
+  border: 1px solid black;
+  margin: 45px;
+  padding: 35px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#productMain {
+  background-color: white;
+  width: 100%;
+  overflow: auto;
+}
+
+/*#endregion Product Page Style*/
+
+/*#region About US Page Styles  */
+.about-us-title h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.dvBanner img,
+.dvBanner2 img {
+  width: 100%;
+}
+.dvBanner,
+.dvDesc {
+  margin-bottom: 0;
+}
+
+.dvDesc {
+  width: auto;
+  height: auto;
+  background-color: #eaf184;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.desctext {
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.desctext p {
+  margin-bottom: 20px;
+}
+.image-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image-box {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+.box-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ef6c00;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box-button:hover {
+  background-color: #2980b9;
+}
+/* ------------------------------------------------------------ */
+.description-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.description h3 {
+  text-align: left;
+  padding: 0px 15px;
+  font-size: 15px;
+}
+
+.description p {
+  padding: 20px 20px 10px 20px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.imagedesc-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imagedesc-box {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.imagedesc-box img {
+  width: 100%;
+  padding: 20px 20px 5px 20px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+caption {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+/*#endregion About US Page Styles  */
+
+/*#region Blog Page Styles  */
+
+.con-item1 {
+  font-weight: 600;
+  text-align: center;
+  padding: 30px 60px;
+  padding-top: 10px;
+}
+
+.con-item1 h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+p.content {
+  font-weight: 100;
+}
+
+.dvBlogContent {
+  width: 70%;
+  margin: 0 0 0 1%;
+}
+
+.imgBlogBanner {
+  text-align: center;
+}
+.imgBlogBanner img {
+  width: 90%;
+}
+.productconRange {
+  padding: 25px 0 25px 45px;
+}
+.productconRange h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.productBlogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 30px 20px;
+}
+
+.prodImg img {
+  width: 70%;
+}
+.dvProdContent p {
+  padding: 10px;
+  text-align: justify;
+}
+.cardHead {
+  font-weight: 600;
+  font-size: 18px;
+}
+.dvcardButton {
+  margin: 2% 25%;
+}
+.cardButton {
+  margin-top: 7%;
+  width: 100%;
+  padding: 10px;
+  background-color: #ef6c00;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.dvMainContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.dvAuthors h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dvSidePanel {
+  text-align: center;
+}
+.dvCardProd {
+  margin: 20px 0;
+}
+
+.dvCategory ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.dvCategory li {
+  padding: 10px;
+  font-weight: 600;
+}
+.dvMainCategory {
+  margin-top: 25px;
+}
+
+.dvFormContent h2 {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+.dvForm {
+  padding: 25px 0 25px 45px;
+  width: 60%;
+  margin: 0 auto;
+}
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+input[type="submit"] {
+  background: #ef6c00;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-top: 1.3em;
+}
+form {
+  background-color: #ffffff;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 9px 20px;
+  border: 1px solid #e1e2eb;
+  background-color: #fff;
+  color: #102a43;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 2rem;
+  box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+  border-radius: 3px;
+  line-height: 2rem;
+}
+form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form li {
+  padding: 0.3em;
+}
+
+/*#endregion Blog Page Styles  */
+
 /* Desktop View */
 /* For devices 1024px width and above */
 @media only screen and (min-width: 1024px) {
@@ -497,6 +956,9 @@ body {
 
   .dvContent p {
     font-size: 14px;
+  }
+  .prodImg img {
+    width: 80%;
   }
 }
 
@@ -574,6 +1036,36 @@ body {
 
   .featurepara {
     font-size: 12px;
+  }
+  .productDropdown {
+    display: none;
+  }
+
+  .dogFood {
+    display: grid;
+    width: fit-content;
+    gap: 17px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: 35px;
+  }
+
+  .productItems {
+    display: block;
+    background-color: white;
+  }
+  .productconRange h2 {
+    font-size: 35px;
+  }
+  .prodImg img {
+    width: 85%;
+  }
+  .productBlogs {
+    padding: 20px 20px 30px 20px;
+  }
+  .productBlogs {
+    flex-direction: column;
   }
 }
 
@@ -664,6 +1156,36 @@ body {
 
   .testmonialContent {
     font-size: 12px;
+  }
+  .productDropdown {
+    display: none;
+  }
+
+  .dogFood {
+    display: grid;
+    width: fit-content;
+    gap: 17px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: 35px;
+  }
+
+  .productItems {
+    display: block;
+    background-color: white;
+  }
+  .productconRange h2 {
+    font-size: 35px;
+  }
+  .prodImg img {
+    width: 85%;
+  }
+  .productBlogs {
+    padding: 20px 20px 30px 20px;
+  }
+  .productBlogs {
+    flex-direction: column;
   }
 }
 
@@ -790,5 +1312,50 @@ body {
     padding: 5px;
     justify-content: initial;
     margin: 0 15%;
+  }
+  .productDropdown {
+    display: none;
+  }
+
+  .dogFood {
+    display: grid;
+    width: fit-content;
+    gap: 17px;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: 65px;
+  }
+
+  .productItems {
+    display: block;
+    background-color: white;
+  }
+  .con-item1 {
+    padding: 30px;
+    padding-top: 10px;
+  }
+  .dvMainContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgBlogBanner img {
+    width: 100%;
+  }
+  .productconRange {
+    padding: 10px;
+  }
+  .productconRange h2 {
+    font-size: 24px;
+  }
+  .dvForm {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .dvBlogContent {
+    width: 85%;
+    margin: 0;
   }
 }
