@@ -1,8 +1,8 @@
 /*#region About US Page Styles  */
-.about-us-title h2 {
+.about-us-title h1 {
   text-align: center;
   padding: 10px;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 900;
 }
 
